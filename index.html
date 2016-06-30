@@ -134,6 +134,26 @@
       color: #f5f5f5;
       padding: 32px;
   }
+   .search:focus{
+   outline-color:#E52E1A;
+ }
+.search {
+                padding:3px 10px;
+                margin: -10px 0 0 0;
+                border:0px solid #dbdbdb;
+}
+.button {
+                position:relative;
+                padding:2px 15px;
+                left:-8px;
+                border:2px solid #E52E1A;
+                background-color:#E52E1A;
+                color:#fafafa;
+}
+.button:hover  {
+                background-color:#fafafa;
+                color:#E52E1A;
+}
   footer a {
       color: #f5f5f5;
   }
@@ -277,11 +297,10 @@
       </div>
     </div>
   </div>
-  Find your Circle
-  <form>
-        <input type="text" placeholder="Search..." required>
-        <input type="button" value="Search">
-  </form>
+    <form>
+       <span style="font-size:20px">Find A Circle Near You <span class="glyphicon glyphicon-map-marker"></span></span>  <input type="text" placeholder="Search..." class="search" required>
+        <input type="button" value="Search" class="button">
+    </form>
 </div>
 </div>
 
